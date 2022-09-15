@@ -1,0 +1,166 @@
+html {
+    font-size: 10px;
+}
+
+.container {
+    background: #FFB084;
+    border-radius: 20px;    
+    font-family: 'Work Sans', sans-serif;
+    /* margin: 4% auto; */
+    color: #000000;
+    max-width: 70%;
+    margin-top: 2%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr .7fr .7fr;
+    grid-template-rows:auto;
+    grid-auto-rows: auto;  
+    grid-column-gap: 25px;
+    grid-row-gap: 18px;
+    padding: 3% 4% 4% 3%;;
+    
+}
+
+.card-one, 
+.card-two, 
+.card-three, 
+.card-four, 
+.card-five, 
+.card-six,
+.card-seven {
+    background-color: #ffff;
+    box-shadow: 7px 7px 0px #000000;
+    border-radius: 20px;
+}
+
+.card-one {
+    grid-row: 1/4;
+    font-size: 1.5rem;
+}
+
+.card-one-title {
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.card-one img {
+    display: block;
+    margin: 3% auto;
+}
+
+.card-one-description {
+    font-size: 1.4rem;
+    text-align:left;
+    display: block;
+    margin:  0 3% 6% 7%;    
+}
+.card-one-description span {
+    font-weight: 700;
+}
+
+.card-one-age {
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-one-age span {
+    font-weight: 700;
+}
+
+.card-two {
+    grid-column: 2/4;
+}
+
+.card-two-subtitle {
+    font-size: 1.8rem;
+    text-align:left;
+    display: block;
+    font-weight: 700;
+    margin: 2% 2% 1% 3%;
+}
+
+.card-two-description {
+    font-size: 1.4rem;
+    text-align:left;
+    display: block;
+    margin: 0 5% 3% 3%;
+}
+
+
+.card-three {
+    grid-column: 2;
+    grid-row: 2;
+    box-shadow: 7px 7px 0px #29A71E;
+}
+
+.card-three-subtitle, 
+.card-four-subtitle,
+.card-five-subtitle,
+.card-six-subtitle,
+.card-seven-subtitle {
+    color: #29A71E;
+    font-size: 1.8rem;
+    text-align:left;
+    display: block;
+    font-weight: 700;
+    margin: 2% 2% 1% 6%;
+}
+
+.card-three ul,
+.card-four ul, 
+.card-five ul,
+.card-six ul {
+    margin: 2% 2% 4% 8%;
+    font-size: 1.4rem;
+    text-align:left;
+    display: block;
+}
+
+.card-four {
+    grid-column: 3;
+    grid-row: 2/4;
+    box-shadow: 7px 7px 0px #E13535;
+}
+
+.card-four-subtitle {
+    color: #E13535;
+}
+
+.card-five {
+    grid-column: 2;
+    grid-row: 3/5;
+    box-shadow: 7px 7px 0px #3675B0;
+}
+
+.card-five-subtitle {
+    color: #3675B0;
+}
+
+.card-six {
+    grid-column: 3;
+    grid-row: 4;
+}
+
+.card-six-subtitle {
+    color: #000000;
+}
+
+.card-six ul {
+    list-style-type: none;
+    margin: 2% 2% 4% 0%;
+}
+
+.card-seven {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.card-seven-subtitle {
+    color: #000000;
+    margin: 5% 3% 1% 7%;
+}
